@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-WORKDIR /usr/src/app/blog-app
+WORKDIR /usr/src/app/frontend
 RUN npm i
 RUN npm run build
 
